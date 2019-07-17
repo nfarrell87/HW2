@@ -26,29 +26,31 @@
         </div>  
         </div>
     </nav>
-    <section class="container myJumbo">
-      <div class="row">
-        <div class="col">
-          <div class="myJumbo btmborder">
-          <h1>About Me</h1>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 picMargin">
-          <img src="https://i.kym-cdn.com/entries/icons/facebook/000/000/088/Gentlemen.jpg" class="spy">
-        </div>
-        <div class="col-md-8 jumboMargin">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis odio varius, placerat magna nec, bibendum ipsum. Curabitur ac magna in mauris mollis tristique. Donec quis felis odio. Pellentesque rutrum nulla nibh, et malesuada felis auctor at. Nunc ullamcorper justo maximus feugiat pellentesque. Ut ex odio, imperdiet in lorem sit amet, rhoncus scelerisque enim. Phasellus interdum nibh eu mattis dictum. Nunc lacus magna, bibendum non diam vitae, iaculis finibus sem. Donec posuere, dolor vel maximus imperdiet, leo ligula commodo urna, sollicitudin suscipit leo ex eu orci. Etiam ultricies interdum enim sit amet iaculis. Sed ac lorem velit. Aenean vulputate arcu augue, at auctor leo aliquet ut.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 jumboMargin">
-          <p>Duis non feugiat orci. Curabitur sit amet lacus in lacus congue congue. Nunc consequat vestibulum urna sodales placerat. Fusce ullamcorper ullamcorper imperdiet. Phasellus sit amet nisi massa. Integer imperdiet, tellus sit amet cursus ornare, turpis orci pretium urna, sed sagittis justo odio quis arcu. Sed rutrum porttitor lorem, eget laoreet nunc euismod nec. Vestibulum fringilla diam non justo venenatis commodo. Nam commodo ex in velit vulputate laoreet.</p>
-          <p>Quisque pellentesque sodales neque. Pellentesque tincidunt feugiat dignissim. Aliquam ut molestie felis, aliquam elementum tortor. Ut nisi nunc, consequat in augue in, mattis aliquet neque. In a mi malesuada, eleifend tellus ac, consectetur lorem. Vivamus mauris sapien, facilisis quis elit eget, tempus faucibus sem. In suscipit ornare vehicula.</p>
-        </div>
-      </div>
-    </section>
+    <div id="main-container" class="container">
+      <section class="row main-section">
+        <h1>Contact</h1>
+  
+        <form class="column" id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
+  
+      </section>
+  
+    </div>
   <footer>
     <div class="row foot">
       <div class="container">
